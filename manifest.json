@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Hyperlink Tracker",
+    "version": "1.0",
+    "description": "Track all hyperlinks on visited pages",
+    "permissions": [
+      "webNavigation",
+      "tabs",
+      "storage",
+      "webRequest",
+    "webRequestBlocking",
+    "*://lovelyprofessionaluniversity.codetantra.com/secure/tla/mi.jsp*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

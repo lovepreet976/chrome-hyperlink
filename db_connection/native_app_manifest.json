@@ -1,0 +1,10 @@
+{
+    "name": "Hyperlink Tracker Native App",
+    "description": "Native messaging host for the Hyperlink Tracker Chrome extension",
+    "path": "/path/to/native_app.py",
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension://your-extension-id"
+    ]
+  }
+  
